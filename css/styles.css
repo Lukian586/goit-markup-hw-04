@@ -1,0 +1,373 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #FFFFFF;
+    color: #434455;
+}
+
+ul, ol {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+margin: 0;
+}
+
+
+a {
+    text-decoration: none;
+}
+img {
+    display: block;
+    
+    height: auto;
+}
+
+.container {
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.style {
+    color: #2e2f42;
+}
+
+.link {
+    color: #4D5AE5;
+    font-family: "Raleway", sans-serif;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 24px 0;
+    margin-right: 76px;
+}
+
+.nav-a {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    font-size: 16px;
+    color: #2e2f42;
+    padding: 24px 0;
+    display: block;
+}
+
+.nav-a:hover,
+.nav-a:focus {
+    color: #404bbf;
+}
+
+.address {
+    font-style: normal;
+    margin-left: auto;
+}
+
+.address-list {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.contacts-a {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    font-weight: 400;
+    font-size: 16px;
+    display: block;
+    padding: 24px 0;
+}
+
+.contacts-a:hover,
+.contacts-a:focus {
+    color: #404bbf;
+}
+
+.page-hero {
+    background-color: #2E2F42;
+    padding-top: 188px;
+    padding-bottom: 188px;
+    margin-left: auto;
+    margin-left: auto;;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   
+}
+.title-page {
+    line-height: 1.07;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+        text-align: center;
+        font-weight: 700;
+        font-size: 56px;
+        padding-bottom: 48px;
+        display: block;
+        max-width: 496px;
+}
+
+
+.btn {
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 16px 32px;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+
+}
+.btn:hover,
+.btn:focus {
+    background-color: #404BBF;
+}
+
+.page-benefits {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title-benefits {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0, 0, 0, 0);
+        overflow: hidden;
+    }
+
+.benefits-list {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.benefits-li {
+    display: flex;
+    flex-direction: column;
+    width: calc((100% - 72px) / 4 );
+    
+}
+
+.benefits-title {
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    font-size: 20px;
+    color: #2E2F42;
+    margin-bottom: 8px;
+
+}
+
+.benefits-p {
+    color: #434455;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;    
+}
+
+.team {
+    background-color: #F4F4FD;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.our-team {
+    display: flex;
+    gap: 24px;
+}
+
+.team-li {
+    background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4 );
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 2px 1px 0 #E7E9FC, 0 1px 1px 0 #E7E9FC, 0 1px 6px 0 #E7E9FC;
+    
+}
+
+.team-li-people {
+    display: flex;
+    flex-direction: column;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin-left: auto;
+    margin-right: auto;
+   
+    
+    
+}
+
+.team-title {
+    color: #2E2F42;
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        text-align: center;
+        margin-bottom: 72px;
+}
+
+.team-s-title {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+        text-align: center;
+        margin-bottom: 8px;
+}
+
+.our-team-p {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+     color: #434455;
+     text-align: center;
+     
+}
+
+
+.portfolio {
+    padding-bottom: 120px;
+    padding-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.portfolio-title {
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+        text-transform: capitalize;
+        text-align: center;
+        margin-bottom: 72px;
+}
+
+.our-portfolio {
+    display: flex;
+        row-gap: 48px;
+        column-gap: 24px;
+        flex-wrap: wrap;        
+}
+
+
+
+.port-li {
+    width: calc((100% - 48px) / 3);
+}
+
+.port-li-text {
+    display: flex;
+    flex-direction: column;
+    padding: 32px 16px;
+    border-bottom: 1px solid #E7E9FC;
+        border-left: 1px solid #E7E9FC;
+        border-right: 1px solid #E7E9FC;
+        align-items: flex-start;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+    
+}
+
+.portfolio-s-title {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+        margin-bottom: 8px;
+        
+}
+
+.portfolio-p {
+font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.footer-c {
+    flex-direction: column;
+}
+
+.footer {
+    background-color: #2E2F42;
+    margin-left: auto;
+    padding-bottom: 100px;
+    margin-right: auto;
+    padding-top: 100px;
+}
+
+.foot-p {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #F4F4FD;
+        display: block;
+        width: 264px;
+}
+
+.link-foot {
+    display: inline-block;
+    font-family: "Raleway", sans-serif;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    color: #4d5ae5;
+    margin-bottom: 16px;
+}
+
+.style-f {
+    color: #f4f4fd;
+    display: inline-block;
+}
+
+.page-header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+ .header-nav {
+    display: flex;
+   align-items: center;
+ }
+ .nav {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+ }
